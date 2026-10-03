@@ -1,0 +1,5 @@
+stow 
+golang
+zsh-syntax-highlighting
+zsh-autosuggestions
+kate

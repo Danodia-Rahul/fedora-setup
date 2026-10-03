@@ -1,0 +1,4 @@
+com.bitwarden.desktop
+io.dbeaver.DBeaverCommunity
+org.pgadmin.pgadmin4
+org.videolan.VLC
