@@ -21,4 +21,5 @@ else
     echo "oh-my-zsh is already installed"
 fi
 
-
+# download zsh-autosuggestions
+sudo dnf install zsh-autosuggestions -y
