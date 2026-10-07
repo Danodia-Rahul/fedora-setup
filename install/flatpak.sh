@@ -4,8 +4,8 @@ set -euo pipefail
 
 sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
-while IFS= read -r app; do
-    [[ -z "$app" || "$app" == \#* ]] && continue
-    flatpak install -y flathub "$app"
-
-done < "$(dirname "$0")/../packages/flatpak.txt"
+while IFS= read -r line; do
+    [[ -z "$line" ]] && continue
+    echo "installing "$line" from flathub"
+    flatpak install flathub "$line" -y
+done < "../packages/flatpak.txt"

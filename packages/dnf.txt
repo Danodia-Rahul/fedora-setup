@@ -4,3 +4,4 @@ zsh-syntax-highlighting
 zsh-autosuggestions
 kate
 neovim
+gparted
