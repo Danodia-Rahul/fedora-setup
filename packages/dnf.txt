@@ -5,3 +5,4 @@ zsh-autosuggestions
 kate
 neovim
 gparted
+fastfetch
